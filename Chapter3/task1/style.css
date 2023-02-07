@@ -62,7 +62,7 @@ div.left a {
 div.left input[type ="text"] {
     height: 25px;
     border: solid 1px darkgray;
-    border-radius: 3%;
+    border-radius: 4px;
     margin-top: 5px;
     width: 90%;
 }
