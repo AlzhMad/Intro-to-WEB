@@ -1,0 +1,119 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: smaller;
+    font-weight: 500;
+    color: black;
+    background-color: lightgray;
+    }
+
+div {
+    width: 1500px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+}
+
+div.menu {
+    width: 1500px;
+    padding: 10px 0px 5px 0px;
+    text-align: center;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: darkred;
+    font-size: larger;
+    width: 100%;
+}
+
+ul :first-child {
+    float: left;
+}
+
+li.first {
+    font-size: larger;
+}
+
+li {
+    float: right;
+    font-size: medium;
+    font-weight: normal;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 15px 20px;
+    text-decoration: none;
+}
+
+li :hover {
+    background-color: rgb(158, 32, 32);
+}
+
+
+div.image{
+    width: 300px;
+    margin: 0;
+    background-color: gray;
+    margin: 0;
+    padding: 20px;
+}
+img{
+    width: 100%;
+}
+
+div.content{
+    width:1140px;
+    padding: 20px 20px 20px 0px;
+    background-color: gray;
+    margin: 0;
+}
+
+div.title{
+    width: 1500px;
+    justify-content: center;
+    padding: 5px 0px;
+    background-color: white;
+    margin: 5px 0px;
+}
+
+span{
+    font-weight: 700;
+    font-size: larger;
+}
+
+div.small{
+    width: 350px;
+    margin-left: auto;
+    border: 1px solid lightgray;
+    background-color: white;
+}
+
+div.small p{
+    margin: 10px;
+    text-align: start;
+}
+
+button{
+    border-radius: 4px;
+    border: none;
+    background-color: darkred ;
+    color: white;
+    padding: 10px 15px;
+    margin: 10px;
+}
+
+div.first{
+    margin-left: 0;
+}
+
+div.last{
+    margin-right: 0;
+}
+
+
+
