@@ -13,4 +13,4 @@ for(let i=0;i<arr.length;i++){
     sum = sum + arr[i];
 }
 
-alert(sum/arr.length);
+alert(sum +" "+sum/arr.length);
