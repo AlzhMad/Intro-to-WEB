@@ -1,15 +1,32 @@
-let n = parseInt(prompt('Enter the number of elements'));
-let arr = [];
+function nthRoot(x, n) {
+    if (x < 0 && n % 2 === 1)
+        return -Math.pow(-x, 1/n);
+    else
+        return Math.pow(x, 1/n)
+}
 
-while (n>0) {
-    let i = prompt('Enter an element');
-    arr.push(i);
-    n--;  
+
+let arr = [];
+let enter = true;
+
+while (enter) {    
+    let i = parseInt(prompt('Enter an element'));
+    if(i==0){
+      enter =false;
+    }
+    else{
+      arr.push(i);
+    }    
 }
   console.log(arr.length);
 
-let toFind = (prompt('Enter the number to find'));
+  let mult = 1;
 
-if(arr.indexOf(toFind)>-1){
-  alert("YES");
-}else{alert("NO");}
+  for(let i=0;i<arr.length;i++){
+      mult = mult * arr[i];
+  }
+  
+  let avggeom = nthRoot(mult, arr.length);
+  
+  alert(avggeom);
+  
