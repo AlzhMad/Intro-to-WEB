@@ -1,6 +1,6 @@
 let cars = [
   {"model":"KIA", "year": 2019, "volume":1.1, "price":500},
-  {"model":"Toyota", "year": 2021, "volume":2.1, "price":600},
+  {"model":"Toyota", "year": 2021, "volume":2.1, "price":600}
 ];
 
 
