@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<style>
+    body{ text-align: center;}
+    button{margin: 5px; padding: 5px 20px;}
+    span{font-size: large;}
+
+</style>
+
+<body>
+
+    <button onclick="add()">+</button>
+    
+    <span id = "counter"> 0 </span>
+
+    <button onclick="substract()">-</button>
+
+    <script>
+        let n = parseInt(counter.innerText);
+        console.log(n);
+    
+        function add(){
+           n = n+1;
+           console.log(n);
+           update(n);
+        }
+
+        function substract(){
+           n = n-1;
+           console.log(n);
+           update(n);
+        }
+
+        function update(n){
+            counter.innerText = n;
+        }
+        
+    </script>
+
+</body>
+
+</html>
